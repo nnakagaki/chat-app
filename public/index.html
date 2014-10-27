@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="javascripts/jquery-1.11.1.min.js"></script>
+  <script src="https://cdn.socket.io/socket.io-1.1.0.js"></script>
+  <script src="javascripts/chat.js"></script>
+  <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+  <h1>Chat!</h1>
+  <div class="room-list">
+    <ul></ul>
+  </div>
+  <div class="chat-box">
+    <ul></ul>
+  </div>
+  <form>
+    <textarea id="message" placeholder="Type message..."></textarea>
+    <button id="submit">Send</button>
+  </form>
+  <div class="users">
+    <h1>Users in this room</h1>
+    <ul></ul>
+  </div>
+</body>
+<script src="javascripts/chat_ui.js"></script>
+</html>

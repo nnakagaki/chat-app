@@ -1,0 +1,10 @@
+li {
+  list-style: none;
+}
+
+.chat-box {
+  height: 300px;
+  border: 10px solid grey;
+  overflow: auto;
+  margin: 30px;
+}
